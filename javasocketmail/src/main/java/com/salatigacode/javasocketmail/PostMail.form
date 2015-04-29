@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form style="Swing" ide="eclipse" builder="jigloo" version="2.7.2">
+<NonVisualComponents>
+		<Component class="java.lang.Object" name="object1">
+			<Constraints>
+				<LayoutConstraint/>
+			</Constraints>
+			<Properties>
+			</Properties>
+		</Component></NonVisualComponents>
+	<Component class="javax.swing.JFrame" name="PostMail">
+		<Constraints>
+			<LayoutConstraint/>
+		</Constraints>
+		<Layout class="Absolute">
+		</Layout>
+		<Events>
+			<EventHandler event="windowClosing" listener="java.awt.event.WindowListener" handler="PostMailWindowClosing"/>
+		</Events>
+		<Properties>
+			<Property name="size" type="Dimension">
+				<Dimension value="[532, 419]"/>
+			</Property>
+			<Property name="bounds" type="Rectangle">
+				<Rectangle value="[0, 0, 532, 419]"/>
+			</Property>
+			<Property name="background" type="Color">
+				<Color red="e0" green="fc" blue="eb"/>
+			</Property>
+		</Properties>
+		<SubComponents>
+			<Component class="javax.swing.JPanel" name="jPanel1">
+				<Constraints>
+					<LayoutConstraint/>
+				</Constraints>
+				<Layout class="Absolute">
+				</Layout>
+				<Events>
+				</Events>
+				<Properties>
+					<Property name="background" type="Color">
+						<Color red="e0" green="fc" blue="eb"/>
+					</Property>
+					<Property name="preferredSize" type="Dimension">
+						<Dimension value="[513, 366]"/>
+					</Property>
+					<Property name="bounds" type="Rectangle">
+						<Rectangle value="[10, 12, 513, 366]"/>
+					</Property>
+				</Properties>
+				<SubComponents>
+					<Component class="javax.swing.JTabbedPane" name="jTabbedPane1">
+						<Constraints>
+							<LayoutConstraint/>
+						</Constraints>
+						<Events>
+						</Events>
+						<Properties>
+							<Property name="background" type="Color">
+								<Color red="e0" green="fc" blue="eb"/>
+							</Property>
+							<Property name="preferredSize" type="Dimension">
+								<Dimension value="[507, 351]"/>
+							</Property>
+							<Property name="bounds" type="Rectangle">
+								<Rectangle value="[2, 8, 507, 351]"/>
+							</Property>
+						</Properties>
+						<SubComponents>
+							<Component class="javax.swing.JPanel" name="jPanel2">
+								<Constraints>
+									<Constraint tabTitle="Send Message"/>
+									<LayoutConstraint/>
+								</Constraints>
+								<Layout class="Absolute">
+								</Layout>
+								<Events>
+								</Events>
+								<Properties>
+									<Property name="background" type="Color">
+										<Color red="e0" green="fc" blue="eb"/>
+									</Property>
+									<Property name="font" type="Font">
+										<Font name="Comic Sans MS" size="14" style="0" strikeout="false" underline="false"/>
+									</Property>
+									<Property name="foreground" type="Color">
+										<Color red="0" green="0" blue="ff"/>
+									</Property>
+									<Property name="preferredSize" type="Dimension">
+										<Dimension value="[502, 323]"/>
+									</Property>
+									<Property name="border" class="javax.swing.border.BevelBorder">
+										<Property name="bevelType" type="int" value="0"/>
+										<Property name="highlightOuterColor" value="null"/>
+										<Property name="highlightInnerColor" value="null"/>
+										<Property name="shadowOuterColor" value="null"/>
+										<Property name="shadowInnerColor" value="null"/>
+									</Property>
+									<Property name="bounds" type="Rectangle">
+										<Rectangle value="[2, 25, 502, 323]"/>
+									</Property>
+								</Properties>
+								<SubComponents>
+									<Component class="javax.swing.JLabel" name="jLabel1">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="text" type="String" value="Pengirim"/>
+											<Property name="font" type="Font">
+												<Font name="Comic Sans MS" size="14" style="0" strikeout="false" underline="false"/>
+											</Property>
+											<Property name="foreground" type="Color">
+												<Color red="0" green="0" blue="ff"/>
+											</Property>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[60, 20]"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[14, 11, 60, 20]"/>
+											</Property>
+										</Properties>
+									</Component>
+									<Component class="javax.swing.JLabel" name="jLabel2">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="text" type="String" value="Subject"/>
+											<Property name="font" type="Font">
+												<Font name="Comic Sans MS" size="14" style="0" strikeout="false" underline="false"/>
+											</Property>
+											<Property name="foreground" type="Color">
+												<Color red="0" green="0" blue="ff"/>
+											</Property>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[60, 20]"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[11, 32, 60, 20]"/>
+											</Property>
+										</Properties>
+									</Component>
+									<Component class="javax.swing.JLabel" name="jLabel3">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="text" type="String" value="Tujuan"/>
+											<Property name="font" type="Font">
+												<Font name="Comic Sans MS" size="14" style="0" strikeout="false" underline="false"/>
+											</Property>
+											<Property name="foreground" type="Color">
+												<Color red="0" green="0" blue="ff"/>
+											</Property>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[60, 20]"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[12, 55, 60, 20]"/>
+											</Property>
+										</Properties>
+									</Component>
+									<Component class="javax.swing.JLabel" name="jLabel4">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="text" type="String" value="Pesan"/>
+											<Property name="font" type="Font">
+												<Font name="Comic Sans MS" size="14" style="0" strikeout="false" underline="false"/>
+											</Property>
+											<Property name="foreground" type="Color">
+												<Color red="0" green="0" blue="ff"/>
+											</Property>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[60, 20]"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[15, 78, 60, 20]"/>
+											</Property>
+										</Properties>
+									</Component>
+									<Component class="javax.swing.JTextField" name="jTextField1">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="font" type="Font">
+												<Font name="Comic Sans MS" size="12" style="0" strikeout="false" underline="false"/>
+											</Property>
+											<Property name="text" type="String" value=""/>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[275, 20]"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[81, 9, 275, 20]"/>
+											</Property>
+										</Properties>
+									</Component>
+									<Component class="javax.swing.JTextField" name="jTextField2">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="font" type="Font">
+												<Font name="Comic Sans MS" size="12" style="0" strikeout="false" underline="false"/>
+											</Property>
+											<Property name="text" type="String" value=""/>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[275, 20]"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[81, 32, 275, 20]"/>
+											</Property>
+										</Properties>
+									</Component>
+									<Component class="javax.swing.JTextField" name="jTextField3">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="font" type="Font">
+												<Font name="Comic Sans MS" size="12" style="0" strikeout="false" underline="false"/>
+											</Property>
+											<Property name="text" type="String" value=""/>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[184, 20]"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[81, 55, 184, 20]"/>
+											</Property>
+										</Properties>
+									</Component>
+									<Component class="javax.swing.JScrollPane" name="jScrollPane1">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="verticalScrollBarPolicy" type="int" value="20"/>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[409, 196]"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[81, 79, 409, 196]"/>
+											</Property>
+										</Properties>
+										<SubComponents>
+											<Component class="javax.swing.JTextArea" name="jTextArea1">
+												<Constraints>
+													<LayoutConstraint/>
+												</Constraints>
+												<Events>
+												</Events>
+												<Properties>
+													<Property name="font" type="Font">
+														<Font name="Comic Sans MS" size="12" style="0" strikeout="false" underline="false"/>
+													</Property>
+													<Property name="text" type="String" value=""/>
+												</Properties>
+											</Component>
+										</SubComponents>
+									</Component>
+									<Component class="javax.swing.JButton" name="jButton1">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+											<EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" handler="jButton1ActionPerformed"/>
+										</Events>
+										<Properties>
+											<Property name="text" type="String" value="Send"/>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[71, 28]"/>
+											</Property>
+											<Property name="border" class="javax.swing.border.BevelBorder">
+												<Property name="bevelType" type="int" value="0"/>
+												<Property name="highlightOuterColor" value="null"/>
+												<Property name="highlightInnerColor" value="null"/>
+												<Property name="shadowOuterColor" value="null"/>
+												<Property name="shadowInnerColor" value="null"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[418, 282, 71, 28]"/>
+											</Property>
+										</Properties>
+									</Component>
+								</SubComponents>
+							</Component>
+							<Component class="javax.swing.JPanel" name="jPanel3">
+								<Constraints>
+									<Constraint tabTitle="Inbox"/>
+									<LayoutConstraint/>
+								</Constraints>
+								<Layout class="Absolute">
+								</Layout>
+								<Events>
+								</Events>
+								<Properties>
+									<Property name="background" type="Color">
+										<Color red="e0" green="fc" blue="eb"/>
+									</Property>
+									<Property name="preferredSize" type="Dimension">
+										<Dimension value="[502, 323]"/>
+									</Property>
+									<Property name="border" class="javax.swing.border.BevelBorder">
+										<Property name="bevelType" type="int" value="0"/>
+										<Property name="highlightOuterColor" value="null"/>
+										<Property name="highlightInnerColor" value="null"/>
+										<Property name="shadowOuterColor" value="null"/>
+										<Property name="shadowInnerColor" value="null"/>
+									</Property>
+									<Property name="bounds" type="Rectangle">
+										<Rectangle value="[2, 25, 502, 323]"/>
+									</Property>
+								</Properties>
+								<SubComponents>
+									<Component class="javax.swing.JScrollPane" name="jScrollPane2">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[138, 236]"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[10, 41, 138, 236]"/>
+											</Property>
+										</Properties>
+										<SubComponents>
+											<Component class="javax.swing.JList" name="jList1">
+												<Constraints>
+													<LayoutConstraint/>
+												</Constraints>
+												<Events>
+													<EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" handler="jList1MouseClicked"/>
+												</Events>
+												<Properties>
+												</Properties>
+											</Component>
+										</SubComponents>
+									</Component>
+									<Component class="javax.swing.JScrollPane" name="jScrollPane3">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[337, 235]"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[155, 42, 337, 235]"/>
+											</Property>
+										</Properties>
+										<SubComponents>
+											<Component class="javax.swing.JTextArea" name="jTextArea2">
+												<Constraints>
+													<LayoutConstraint/>
+												</Constraints>
+												<Events>
+												</Events>
+												<Properties>
+													<Property name="text" type="String" value=""/>
+													<Property name="preferredSize" type="Dimension">
+														<Dimension value="[334, 228]"/>
+													</Property>
+													<Property name="bounds" type="Rectangle">
+														<Rectangle value="[0, 0, 334, 232]"/>
+													</Property>
+												</Properties>
+											</Component>
+										</SubComponents>
+									</Component>
+									<Component class="javax.swing.JButton" name="jButton2">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+											<EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" handler="jButton2ActionPerformed"/>
+										</Events>
+										<Properties>
+											<Property name="text" type="String" value="Refresh Inbox"/>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[113, 29]"/>
+											</Property>
+											<Property name="border" class="javax.swing.border.BevelBorder">
+												<Property name="bevelType" type="int" value="0"/>
+												<Property name="highlightOuterColor" value="null"/>
+												<Property name="highlightInnerColor" value="null"/>
+												<Property name="shadowOuterColor" value="null"/>
+												<Property name="shadowInnerColor" value="null"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[10, 283, 113, 29]"/>
+											</Property>
+										</Properties>
+									</Component>
+									<Component class="javax.swing.JLabel" name="jLabel5">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="text" type="String" value="Pengirim"/>
+											<Property name="font" type="Font">
+												<Font name="Comic Sans MS" size="14" style="0" strikeout="false" underline="false"/>
+											</Property>
+											<Property name="foreground" type="Color">
+												<Color red="0" green="0" blue="ff"/>
+											</Property>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[60, 20]"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[13, 15, 60, 20]"/>
+											</Property>
+										</Properties>
+									</Component>
+									<Component class="javax.swing.JLabel" name="jLabel6">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+										</Events>
+										<Properties>
+											<Property name="text" type="String" value="Pesan"/>
+											<Property name="font" type="Font">
+												<Font name="Comic Sans MS" size="14" style="0" strikeout="false" underline="false"/>
+											</Property>
+											<Property name="foreground" type="Color">
+												<Color red="0" green="0" blue="ff"/>
+											</Property>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[60, 20]"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[158, 16, 60, 20]"/>
+											</Property>
+										</Properties>
+									</Component>
+									<Component class="javax.swing.JButton" name="jButton3">
+										<Constraints>
+											<LayoutConstraint/>
+										</Constraints>
+										<Events>
+											<EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" handler="jButton3ActionPerformed"/>
+										</Events>
+										<Properties>
+											<Property name="text" type="String" value="Delete"/>
+											<Property name="preferredSize" type="Dimension">
+												<Dimension value="[86, 29]"/>
+											</Property>
+											<Property name="border" class="javax.swing.border.BevelBorder">
+												<Property name="bevelType" type="int" value="0"/>
+												<Property name="highlightOuterColor" value="null"/>
+												<Property name="highlightInnerColor" value="null"/>
+												<Property name="shadowOuterColor" value="null"/>
+												<Property name="shadowInnerColor" value="null"/>
+											</Property>
+											<Property name="bounds" type="Rectangle">
+												<Rectangle value="[129, 283, 86, 29]"/>
+											</Property>
+										</Properties>
+									</Component>
+								</SubComponents>
+							</Component>
+						</SubComponents>
+					</Component>
+				</SubComponents>
+			</Component>
+		</SubComponents>
+	</Component>
+</Form>
