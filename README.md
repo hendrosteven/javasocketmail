@@ -6,4 +6,8 @@ How to
 1. To receive message you must run the MultiMailServer class
 2. To Send and Read messages you must run the PostMail class
 
+Screenshot
 
+![](https://github.com/hendrosteven/javasocketmail/blob/master/screenshoot/01.png)
+
+![](https://github.com/hendrosteven/javasocketmail/blob/master/screenshoot/02.png)
